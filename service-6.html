@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Your description">
+    <meta name="author" content="Your name">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+
+    <!-- Webpage Title -->
+    <title>MetaMed</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="./css2/bootstrap.min.css" rel="stylesheet">
+    <link href="./css2/fontawesome-all.min.css" rel="stylesheet">
+    <link href="./css2/aos.min.css" rel="stylesheet">
+    <link href="./css2/swiper.css" rel="stylesheet">
+    <link href="./css2/style.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/metamed/Metamed-logo.png">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+        <div class="container">
+
+            <!-- Image Logo -->
+            <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> -->
+
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <a class="navbar-brand logo-text" href="index.html">SBML</a>
+
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault" >
+                <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Development Teams</a>
+                        
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                            <li><a class="dropdown-item" href="group-1.html">Group 1 - BrightTech</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="group-2.html">Group 2 - Array[FOO]</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="group-3.html">Group 3 - Runtime Error</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="group-4.html">Group 4 - Solid Tonic</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="group-5.html">Group 5 - Consultech Co.</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="group-6.html">Group 6 - Armada</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="group-7.html">Group 7 - ALT+F4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown02" data-bs-toggle="dropdown" aria-expanded="false" href="#">Services</a>
+                        
+                        <ul class="dropdown-menu" aria-labelledby="dropdown02">
+                            <li><a class="dropdown-item" href="service-1.html">G1 - HealthDirect</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="service-2.html">G2 - PharmaQuick</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="service-3.html">G3 - MediSource</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="service-4.html">G4 - MediSwift</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="service-5.html">G5 - Alpharmacy</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="service-6.html">G6 - MetaMed</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="service-7.html">G7 - TechPharmacy</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false" href="#">Project Showcase</a>
+                        
+                        <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                            <li><a class="dropdown-item" href="article.html">Project Kli-ck</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Home -->
+    <section class="home py-5 d-flex align-items-center" id="header">
+        <img src="images/metamed/Metamed-logo.png" alt="Logo" class="center" data-aos="fade-left">
+        <div class="container text-light py-5"  data-aos="fade-right"> 
+            <h1 class="headline"> <span class="home_text">Meta</span>Med</h1>
+            <p class="para para-light py-3">Introduced by the Armada team, the MetaMed is a one-stop online pharmacy that provides convenient and efficient services for all its customers. MetaMed caters to a variety of prescribed medications, from generic to branded, with flexible payment options, and delivery choices with just a click of your finger!</p>
+        </div> <!-- end of container -->
+    </section> <!-- end of home -->
+
+
+    <!-- Information -->
+    <section class="information">
+        <div class="container-fluid">  
+            <div class="row text-light">
+                <div class="col-lg-4 text-center p-5" data-aos="zoom-in">
+                    <a href="#release1">
+                        <i class="fas fa-dice-one fa-3x p-2"></i> </a>
+                    <h4 class="py-3">Release 1</h4>
+                    <p class="para-light">Release 1 includes MetaMed's fundamental features such as search and login functionality.</p>
+                </div>
+                <div class="col-lg-4 text-center p-5"  data-aos="zoom-in">
+                    <a href="#release2">
+                        <i class="fas fa-dice-two fa-3x p-2"></i> </a>
+                    <h4 class="py-3">Release 2</h4>
+                    <p class="para-light">Release 2 covers additional MetaMed's order features such as pre-ordering and order tracker.</p>
+                </div>
+                <div class="col-lg-4 text-center p-5 text-dark"  data-aos="zoom-in"> 
+                    <a href="#release3">
+                        <i class="fas fa-dice-three fa-3x p-2"></i> </a>
+                    <h4 class="py-3">Release 3</h4>
+                    <p class="para-light">Release 3 implements additional features to product recommendation, payment option, and delivery option.</p>
+                </div>
+            </div>
+        </div> <!-- end of container -->
+    </section> <!-- end of information -->
+    
+    
+    <!-- Services -->
+    <section class="services d-flex align-items-center py-5" id="release1">
+        <div class="container text-light">
+            <div class="text-center pb-4" >
+                <p>OUR SERVICES</p> 
+                <h2 class="py-2">Release 1</h2>
+                <p class="para-light">Features</p>
+            </div>
+            <div class="row gy-4 py-2" data-aos="zoom-in">
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-filter fa-2x"></i>
+                        <h4 class="py-2">Filter Items</h4>
+                        <p class="para-light">The MetaMed uses filter items to organize every product according to its categories, making it easier to navigate and pleasing to the eye.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-search fa-2x"></i>
+                        <h4 class="py-2">Search Bar</h4>
+                        <p class="para-light">The MetaMed has a built-in search bar so that the consumers can find whatever they wish to order from the website.</p>
+                    </div>                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-pen fa-2x"></i>
+                        <h4 class="py-2">Register/Log In</h4>
+                        <p class="para-light">Customers can make use of the register or log-in feature of the MetaMed. In this manner, their previous orders will be recorded.</p>
+                    </div>                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-plus-circle fa-2x"></i>
+                        <h4 class="py-2">Add/Remove Items</h4>
+                        <p class="para-light">Once the customers add their desired products to the cart, they can add as many as they want and easily remove them if ever they change their minds.</p>
+                    </div>                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-scroll fa-2x"></i>
+                        <h4 class="py-2">Prescription Verification</h4>
+                        <p class="para-light">Some medicine cannot be bought over the counter, like antibiotics and medications specific for an illness, customers should have prescriptions from their physicians.</p>
+                    </div>                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-stop-circle fa-2x"></i>
+                        <h4 class="py-2">Limit of Purchase</h4>
+                        <p class="para-light">To avoid hoarding, the MetaMed offers a limit of purchase feature. This will depend on the prescription presented by the customer or what the system will allow. </p>
+                    </div>                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-home fa-2x"></i>
+                        <h4 class="py-2">Cash On Delivery</h4>
+                        <p class="para-light">As one of the payment options, cash on delivery is the easiest one. The customer can order their desired products, wait for the package to come, and pay on the spot. </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-wallet fa-2x"></i>
+                        <h4 class="py-2">E-Wallet</h4>
+                        <p class="para-light">For a cashless transaction, customers can opt for the E-wallet payment option. They can link their chosen e-wallet accounts (GCash, PayMaya, PayPal, etc.)</p>
+                    </div>                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-credit-card fa-2x"></i>
+                        <h4 class="py-2">Debit/Credit Card</h4>
+                        <p class="para-light">Another alternative for a cashless transaction is linking their debit and credit card accounts to the website. Note that the system will not use any information.</p>
+                    </div>                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-receipt fa-2x"></i>
+                        <h4 class="py-2">Receipt</h4>
+                        <p class="para-light">Customers can view their total order at the end of the transaction, they can review them, add or remove products, and check them out once decided.</p>
+                    </div>                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-truck fa-2x"></i>
+                        <h4 class="py-2">Local Delivery</h4>
+                        <p class="para-light">The MetaMed offers a local delivery using any of the delivery companies available at service. Sipping fee and time interval between the pharmacy and customer vary.</p>
+                    </div>                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-globe-americas fa-2x"></i>
+                        <h4 class="py-2">International Delivery</h4>
+                        <p class="para-light">The MetaMed also offers international delivery for all customers overseas. Again, the shipping fee and time of pharmacy also varies.</p>
+                    </div>                    
+                </div>
+                
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of services -->
+    
+    <section class="services d-flex align-items-center py-5" id="release2">
+        <div class="container text-light">
+            <div class="text-center pb-4" >
+                <p>OUR SERVICES</p> 
+                <h2 class="py-2">Release 2</h2>
+                <p class="para-light">Features</p>
+            </div>
+            <div class="row gy-4 py-2" data-aos="zoom-in">
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-cart-arrow-down fa-2x"></i>
+                        <h4 class="py-2">Pre-order</h4>
+                        <p class="para-light">Customers can pre-order their chosen products if they want to stock up on their maintenance. Pre-ordered items can cause some delays in shipping time.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-map-pin fa-2x"></i>
+                        <h4 class="py-2">Order Tracker</h4>
+                        <p class="para-light">Once the order has been placed, customers can track their package. The MetaMed offers an order tracker so that the customers can see where is their package and how long before they can receive it.</p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="services d-flex align-items-center py-5" id="release3">
+        <div class="container text-light">
+            <div class="text-center pb-4" >
+                <p>OUR SERVICES</p> 
+                <h2 class="py-2">Release 3</h2>
+                <p class="para-light">Features</p>
+            </div>
+            <div class="row gy-4 py-2" data-aos="zoom-in">
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-star fa-2x"></i>
+                        <h4 class="py-2">Product Recommendation</h4>
+                        <p class="para-light">Loyal customers who order at MetaMed from time to time, can see some product recommendations. Items that are related to, what you may like, or similar to the ones they have ordered before.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-copy fa-2x"></i>
+                        <h4 class="py-2">Duplicate Previous Orders</h4>
+                        <p class="para-light">Customers can purchase the items they bought from the MetaMed again. They can just simply add them to the cart one more time and check them out.</p>
+                    </div>                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-dollar-sign fa-2x"></i>
+                        <h4 class="py-2">International Remittances</h4>
+                        <p class="para-light">For international customers, they can opt for international remittance. Since the MetaMed does not accept other currencies besides the Peso, overseas customers can ship their money to any local remittance shop and pay their orders.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-shipping-fast fa-2x"></i>
+                        <h4 class="py-2">Express Delivery</h4>
+                        <p class="para-light">If customers need any of the offered products as soon as possible, the MetaMed offers express delivery. This may cost additional payment express shipping but do not worry because the package will be sent to the customer immediately.</p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  
+
+    <!-- Testimonials -->
+    <div class="slider-1 testimonial text-light d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="text-center w-lg-75 m-auto pb-4">
+                    <p>TESTIMONIALS</p>
+                    <h2 class="py-2">What Our Clients Says</h2>
+                    <p class="para-light">Armada values clients’ feedback and ideas to maintain our products' integrity and build trust in our brand- see for yourself what our clients say about the team.</p>
+                </div>
+            </div> <!-- end of row -->
+            <div class="row p-2" data-aos="zoom-in">
+                <div class="col-lg-12">
+
+                    <!-- Card Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container card-slider">
+                            <div class="swiper-wrapper">
+                                
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card p-4">
+                                        <p>The punctuality and expertise they have in the field are great. They also had great insights to share about the maintenance of the website which makes it even better.</p>
+                                    
+                                        <div class="d-flex pt-4">
+                                            <div>
+                                                <img class="avatar" src="./assets/images/ralph.jpg" alt="testimonial">
+                                            </div>
+                                            <div class="ms-3 pt-2">
+                                                <h6>Ralph Jocel Guttierez</h6>
+                                                <p>CEO, Sneaker Manila</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card p-4">
+                                        <p>Armada Team is a purveyor of positive team involvement, where they value input from each member of the team. They also have established a brand for having industry-competitive quality.</p>
+                                        <div class="d-flex pt-4">
+                                            <div>
+                                                <img class="avatar" src="./assets/images/miguel.jpg" alt="testimonial">
+                                            </div>
+                                            <div class="ms-3 pt-2">
+                                                <h6>Miguel Boquiren</h6>
+                                                <p>Head of Sales and Marketing, PH Sneak</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card p-4">
+                                        <p>The work of the Armada Team was really great. Now, we have a great product which has been even better than our expectations when we thought of the mobile application.</p>
+                                        <div class="d-flex pt-4">
+                                            <div>
+                                                <img class="avatar" src="./assets/images/alim.jpg" alt="testimonial">
+                                            </div>
+                                            <div class="ms-3 pt-2">
+                                                <h6>Andrea Alim</h6>
+                                                <p>CEO, Stella PH</p>
+                                            </div>
+                                        </div>
+                                    </div>      
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card p-4">
+                                        <p>When we had issues with our platform, we consulted with them on some of it. That is technically no longer part of their contract but they lent us their expertise on the technology nonetheless.</p>
+                                        <div class="d-flex pt-4">
+                                            <div>
+                                                <img class="avatar" src="./assets/images/ursua.jpg" alt="testimonial">
+                                            </div>
+                                            <div class="ms-3 pt-2">
+                                                <p>Karlsbert Ursua</p>
+                                                <p>Business Unit Manager, Club Sole PH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                            </div> <!-- end of swiper-wrapper -->
+        
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+        
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of card slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of testimonials -->
+
+
+    <!-- Newsletter -->
+    <section class="newsletter text-light py-5">
+        <div class="container">
+            <div class="row" >
+                <div class="col-lg-6 text-center text-lg-start" data-aos="fade-right">
+                    <h4 class="py-1">Subscribe to our Newsletter</h4>
+                    <p class="para-light"></p>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-down">
+                    <div class="input-group my-3">
+                        <input type="text" class="form-control p-2" placeholder="Enter your email address" aria-label="Recipient's email">
+                        <button class="btn-secondary text-light" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of newsletter -->
+
+
+
+    <!-- Location -->
+    <section class="location text-light py-5">
+        <div class="container" data-aos="zoom-in">
+            <div class="row">
+                <div class="col-lg-3 d-flex align-items-center">
+                    <div class="p-2"><i class="far fa-map fa-3x"></i></div>
+                    <div class="ms-2">
+                        <h6>ADDRESS</h6>
+                        <p>Manila City, Metro Manila</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex align-items-center" >
+                    <div class="p-2"><i class="fas fa-mobile-alt fa-3x"></i></div>
+                    <div class="ms-2">
+                        <h6>CALL FOR QUERY</h6>
+                        <p>(123) 456 789 012</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex align-items-center" >
+                    <div class="p-2"><i class="far fa-envelope fa-3x"></i></div>
+                    <div class="ms-2">
+                        <h6>SEND US MESSAGE</h6>
+                        <p>armada.tech@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex align-items-center" >
+                    <div class="p-2"><i class="far fa-clock fa-3x"></i></div>
+                    <div class="ms-2">
+                        <h6>OPERATING HOURS</h6>
+                        <p>09:00 AM - 18:00 PM</p>
+                    </div>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of location -->
+
+
+    <!-- Footer -->
+    <section class="footer text-light">
+        <div class="container">
+            <div class="row" data-aos="fade-right">
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div class="d-flex align-items-center">
+                        <h4 class="">Simplifying your Business, Making you a Leader</h4>
+                    </div>
+                    <p class="py-3 para-light">Our Team believes that technology is the best staple 
+                    tool in going beyond for business - strive to seamlessly 
+                    integrate technology into your business, making it work 
+                    for you and not the other way around.</p>
+                    <div class="d-flex">
+                        <div class="me-3">
+                            <a href="https://www.facebook.com/sbml.org">
+                                <i class="fab fa-facebook-f fa-2x py-2"></i>
+                            </a>
+                        </div>
+                        <div class="me-3">
+                            <a href="#">
+                                <i class="fab fa-twitter fa-2x py-2"></i>
+                            </a>
+                        </div>
+                        <div class="me-3">
+                            <a href="#">
+                                <i class="fab fa-instagram fa-2x py-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!-- end of col -->
+                
+
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div>
+                        <h4 class="py-2">Groups</h4>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="group-1.html"><p class="ms-3">Group 1 - BrightTech</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="group-2.html"><p class="ms-3">Group 2 - Array[FOO]</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="group-3.html"><p class="ms-3">Group 3 - Runtime Error</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="group-4.html"><p class="ms-3">Group 4 - Solid Tonic</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="group-5.html"><p class="ms-3">Group 5 - Consultech Co.</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="group-6.html"><p class="ms-3">Group 6 - Armada</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="group-7.html"><p class="ms-3">Group 7 - ALT+F4</p></a>
+                        </div>
+                    </div>
+                </div> <!-- end of col -->
+
+                
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div>
+                        <h4 class="py-2">Development Teams</h4>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="service-1.html"><p class="ms-3">G1 - HealthDirect</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="service-2.html"><p class="ms-3">G2 - PharmaQuick</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="service-3.html"><p class="ms-3">G3 - MediSource</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="service-4.html"><p class="ms-3">G4 - MediSwift</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="service-5.html"><p class="ms-3">G5 - Alpharmacy</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="service-6.html"><p class="ms-3">G6 - MetaMed</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="service-7.html"><p class="ms-3">G7 - TechPharmacy</p></a>
+                        </div>
+                    </div>
+                </div> <!-- end of col -->
+
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div class="d-flex align-items-center">
+                        <h4>Newsletter</h4>
+                    </div>
+                    <p class="py-3 para-light">Subscribe to our newsletter</p>
+                    <div class="d-flex align-items-center">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control p-2" placeholder="Enter Email" aria-label="Recipient's email">
+                            <button class="btn-secondary text-light"><i class="fas fa-envelope fa-lg"></i></button>       
+                        </div>
+                    </div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of footer -->
+
+ 
+    
+    <!-- Back To Top Button -->
+    <button onclick="topFunction()" id="myBtn">
+        <img src="assets/images/up-arrow.png" alt="alternative">
+    </button>
+    <!-- end of back to top button -->
+
+    
+    <!-- Scripts -->
+    <script src="./js/bootstrap.min.js"></script><!-- Bootstrap framework -->
+    <script src="./js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+    <script src="./js/swiper.min.js"></script><!-- Swiper for image and text sliders -->
+    <script src="./js/aos.js"></script><!-- AOS on Animation Scroll -->
+    <script src="./js/script.js"></script>  <!-- Custom scripts -->
+</body>
+</html>
